@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-sindf",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compute the sine of a single-precision floating-point number (in degrees).",
   "license": "Apache-2.0",
   "author": {
@@ -42,7 +42,7 @@
   "dependencies": {
     "@stdlib/math-base-assert-is-infinitef": "^0.2.2",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
-    "@stdlib/math-base-napi-unary": "^0.2.3",
+    "@stdlib/math-base-napi-unary": "^0.2.5",
     "@stdlib/math-base-special-absf": "^0.2.2",
     "@stdlib/math-base-special-deg2radf": "^0.2.2",
     "@stdlib/math-base-special-fmodf": "github:stdlib-js/math-base-special-fmodf#main",
@@ -50,10 +50,10 @@
     "@stdlib/math-base-special-kernel-sinf": "github:stdlib-js/math-base-special-kernel-sinf#main",
     "@stdlib/math-base-special-signumf": "^0.2.2",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/constants-float32-ninf": "^0.2.2",
     "@stdlib/constants-float32-pinf": "^0.2.2",
     "@stdlib/math-base-assert-is-negative-zerof": "^0.1.3",
@@ -93,84 +93,6 @@
     "trig",
     "trigonometry"
   ],
-  "__stdlib__": {
-    "scaffold": {
-      "$schema": "math/base@v1.0",
-      "base_alias": "sind",
-      "alias": "sindf",
-      "pkg_desc": "compute the sine of a single-precision floating-point number (in degrees)",
-      "desc": "computes the sine of a single-precision floating-point number (in degrees)",
-      "short_desc": "sine",
-      "parameters": [
-        {
-          "name": "x",
-          "desc": "input value (in degrees)",
-          "type": {
-            "javascript": "number",
-            "jsdoc": "number",
-            "c": "float",
-            "dtype": "float32"
-          },
-          "domain": [
-            {
-              "min": "-infinity",
-              "max": "infinity"
-            }
-          ],
-          "rand": {
-            "prng": "random/base/uniform",
-            "parameters": [
-              -360,
-              360
-            ]
-          },
-          "example_values": [
-            0,
-            30,
-            45,
-            60,
-            90,
-            120,
-            150,
-            180,
-            270,
-            360,
-            -30,
-            -45,
-            -60,
-            -90,
-            -180,
-            -270,
-            -360,
-            15,
-            -15,
-            75
-          ]
-        }
-      ],
-      "output_policy": "real_floating_point_and_generic",
-      "returns": {
-        "desc": "sine",
-        "type": {
-          "javascript": "number",
-          "jsdoc": "number",
-          "c": "float",
-          "dtype": "float32"
-        }
-      },
-      "keywords": [
-        "degree",
-        "sin",
-        "sine",
-        "sind",
-        "trig",
-        "trigonometry"
-      ],
-      "extra_keywords": [
-        "math.sin"
-      ]
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
