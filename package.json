@@ -50,7 +50,8 @@
     "@stdlib/math-base-special-kernel-sinf": "github:stdlib-js/math-base-special-kernel-sinf#main",
     "@stdlib/math-base-special-signumf": "^0.2.2",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.3"
+    "@stdlib/utils-library-manifest": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "^0.1.0",
