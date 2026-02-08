@@ -46,7 +46,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sindf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sindf@deno/mod.js';
+import sindf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sindf@v0.1.1-deno/mod.js';
 ```
 
 #### sindf( x )
@@ -80,7 +80,7 @@ v = sindf( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import sindf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sindf@deno/mod.js';
+import sindf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sindf@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
